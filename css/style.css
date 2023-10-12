@@ -24,20 +24,21 @@ header h1{
 }
 
 .container_celle{
-    margin: 20px;
+    width: 100%;
+    margin: 30px;
 }
 .celle{
     background-color: black;
     border: 1px solid green;
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     min-height: 70px;
-    padding: 0 5px;
-    
+    margin: 0 10px;
+
 }
 
 .container_celle::after{
     content: "";
     display: table;
     clear: both;
-}
+} 
