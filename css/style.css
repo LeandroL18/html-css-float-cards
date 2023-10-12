@@ -1,0 +1,43 @@
+/* Stili generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Stili header */
+header h1{
+    margin: 20px;
+    color: rgb(226, 43, 113);
+    font-weight:bold;
+}
+/* Stili main */
+
+#testo{
+    font-size: 15.5px;
+
+}
+.container_generale{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container_celle{
+    margin: 20px;
+}
+.celle{
+    background-color: black;
+    border: 1px solid green;
+    float: left;
+    width: calc(100% / 3);
+    min-height: 70px;
+    padding: 0 5px;
+    
+}
+
+.container_celle::after{
+    content: "";
+    display: table;
+    clear: both;
+}
