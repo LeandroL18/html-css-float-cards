@@ -25,7 +25,7 @@ header h1{
 
 .container_celle{
     width: 100%;
-    margin: 30px;
+    margin: 30px 0px;
 }
 .celle{
     background-color: black;
@@ -53,15 +53,22 @@ header h1{
 }
 
 .nome{
-    font-weight: bold;
+    font-weight: bold; 
     margin-top: 10px;
 }
 
-.descrizione{
-    font-size: 14px;
+.ruolo{
+    font-size: 12px;
 }
 
 .email{
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(83, 178, 237);
+    text-decoration: none;
 }
+
+.email::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
