@@ -34,7 +34,9 @@ header h1{
     width: calc(100% / 3 - 20px);
     min-height: 70px;
     margin: 0 10px;
-
+    padding-top:8px;
+    color: white;
+    text-align: left;
 }
 
 .container_celle::after{
@@ -42,3 +44,24 @@ header h1{
     display: table;
     clear: both;
 } 
+
+.img{
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+    margin-top: -8px;
+}
+
+.nome{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.descrizione{
+    font-size: 14px;
+}
+
+.email{
+    font-size: 14px;
+    color: rgb(83, 178, 237);
+}
